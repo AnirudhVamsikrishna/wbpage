@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Welcome to the Dashboard</h1>
+        <a href="profile.html">View Profile</a> | 
+        <button onclick="logout()">Logout</button>
+
+        <div class="video-section">
+            <h2>ESP32-CAM Stream</h2>
+            <iframe width="560" height="315" src="http://192.168.243.232" frameborder="0" allowfullscreen></iframe>
+
+            <h2>Watch a YouTube Video</h2>
+            <input type="text" id="video_url" placeholder="Enter YouTube URL">
+            <button onclick="playVideo()">Play</button>
+            <iframe id="video_frame" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

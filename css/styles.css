@@ -1,0 +1,206 @@
+/* Background image styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../static/images/image.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Centering the login box */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login box styling */
+.login-box {
+    background: rgba(0, 0, 0, 0.85); /* Slightly darker background for better contrast */
+    padding: 40px;
+    width: 350px; /* Increase the width for a more spacious feel */
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Deeper shadow for better depth */
+}
+
+.login-box h1 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 1.8em; /* Slightly larger heading */
+}
+
+/* Textbox container styling */
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 100%; /* Ensure full-width inputs */
+    padding: 12px; /* More padding for better spacing */
+    background: #444; /* Lighter background for better contrast */
+    color: #fff; /* White text for contrast */
+    border: none;
+    border-radius: 8px; /* Smooth rounded corners */
+    font-size: 1em; /* Consistent font size */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    outline: none; /* Remove default outline on focus */
+}
+
+/* Styling for the button */
+.btn {
+    width: 100%; /* Full-width button */
+    background-color: #28a745;
+    color: white;
+    padding: 12px; /* More padding for a balanced look */
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 1.1em; /* Larger button text */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #218838;
+}
+
+/* Link to create an account */
+.create-account {
+    color: #caa6ff;
+    text-decoration: none;
+    font-size: 0.9em; /* Slightly smaller for a subtle look */
+    display: block;
+    margin-top: 20px;
+}
+
+.create-account:hover {
+    text-decoration: underline;
+}
+
+
+/* Create Account Page Styles */
+body.create-account-page {
+    background-image: url('/static/images/image.png'); /* Your background */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff; /* White text to contrast with background */
+}
+
+.create-account-container {
+    background: rgba(0, 0, 0, 0.7); /* Darker transparent background for better contrast */
+    padding: 30px; /* Increase padding for better spacing */
+    border-radius: 15px; /* Smoother rounded corners */
+    max-width: 400px; /* Limit the width of the form */
+    width: 100%; /* Ensure full width responsiveness */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add subtle shadow for depth */
+    margin: 100px auto; /* Center form vertically and horizontally */
+    color: white; /* Ensure text remains readable */
+    text-align: center; /* Center align the text inside */
+}
+
+.create-account-container h2 {
+    margin-bottom: 20px; /* Space below heading */
+    font-size: 1.5em;
+}
+
+.create-account-container input {
+    width: 100%; /* Make sure all input fields are of equal width */
+    padding: 12px; /* Add padding for better spacing */
+    margin: 10px 0; /* Space between fields */
+    border-radius: 8px; /* Smoother rounded corners */
+    border: 1px solid #ccc; /* Subtle border */
+    box-sizing: border-box; /* Ensure padding does not affect the width */
+    font-size: 1em; /* Make text size consistent */
+}
+
+.create-account-container button {
+    background-color: #ff6600; /* Button background color */
+    color: white; /* Button text color */
+    padding: 12px; /* Space inside the button */
+    width: 100%; /* Make the button take full width */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Round button corners */
+    cursor: pointer; /* Show pointer on hover */
+    font-size: 1.1em; /* Slightly larger button text */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.create-account-container button:hover {
+    background-color: #ff8533; /* Slightly lighter color on hover */
+}
+
+.error, .success {
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.error {
+    background-color: red;
+    color: white;
+}
+
+.success {
+    background-color: green;
+    color: white;
+}
+
+/* Background image styling for dashboard */
+body.dashboard-page {
+    background-image: url('/static/images/image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Centering the dashboard box */
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Dashboard box styling */
+.dashboard-box {
+    background: rgba(0, 0, 0, 0.85); /* Match the background opacity with login and create account */
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Matching the shadow for consistency */
+}
+
+.dashboard-box h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 1.8em; /* Consistent with login box */
+}
+
+.dashboard-box p {
+    color: #fff;
+}
+
+.dashboard-box .btn {
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-box .btn:hover {
+    background-color: #218838;
+}
+
+
